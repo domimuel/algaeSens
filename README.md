@@ -107,31 +107,6 @@ The following limitations were identified:
 - **Limited generalization assessment:** Generalization capabilities cannot be reliably evaluated based on a single experimental test series.
 - **Experimental scope:** The initial investigation was limited to algae biomass samples captured in Petri dishes.
 
-## Future Work
-
-Further development should focus on expanding the dataset and improving the robustness of the prediction model.
-
-Potential next steps include:
-
-1. **Dataset expansion**
-   - Collect additional images across a broader range of biomass concentrations.
-   - Increase the number of samples and experimental repetitions.
-   - Introduce additional experimental conditions.
-
-2. **Model optimization**
-   - Investigate alternative CNN architectures.
-   - Optimize model hyperparameters and training strategies.
-   - Evaluate different sensor fusion and feature combination approaches.
-
-3. **Generalization and validation**
-   - Conduct additional independent test series.
-   - Evaluate model performance across different experimental conditions.
-   - Investigate robustness against variations in camera settings and image acquisition.
-
-4. **Practical application**
-   - Further investigate the potential for non-invasive biomass monitoring.
-   - Evaluate the transferability of the approach to more representative measurement environments.
-
 ## Conclusion
 
 This project successfully demonstrated the feasibility of estimating algae biomass concentration using machine learning and non-invasive optical image data.
@@ -139,7 +114,3 @@ This project successfully demonstrated the feasibility of estimating algae bioma
 By combining CNN-based image processing with metadata processing in a sensor fusion architecture, the model achieved a test MAE of **0.504 g/l** on unseen data.
 
 Although further data collection, model optimization, and independent validation are required, the results provide a promising foundation for developing optical, non-invasive biomass estimation systems.
-
----
-
-*Project type: Proof of Principle | Application: Machine Learning / Computer Vision / Sensor Fusion | Prediction task: Biomass Regression*
